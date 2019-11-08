@@ -95,7 +95,7 @@
 
 // Fix EEPROM Bug
 // @link https://github.com/MarlinFirmware/Marlin/issues/15254#issuecomment-535755449
-#define MCU_STM32F103RE
+//#define MCU_STM32F103RE
 
 // @section machine
 
@@ -2052,7 +2052,7 @@
 //
 // FSMC display (MKS Robin, Alfawise U20, JGAurora A5S, REXYZ A1, etc.)
 //
-//#define FSMC_GRAPHICAL_TFT
+// #define FSMC_GRAPHICAL_TFT
 
 //=============================================================================
 //============================  Other Controllers  ============================
