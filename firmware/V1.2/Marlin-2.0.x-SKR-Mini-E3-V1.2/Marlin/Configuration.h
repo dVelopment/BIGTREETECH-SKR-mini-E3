@@ -95,7 +95,7 @@
 
 // Fix EEPROM Bug
 // @link https://github.com/MarlinFirmware/Marlin/issues/15254#issuecomment-535755449
-//#define MCU_STM32F103RE
+#define MCU_STM32F103RE
 
 // @section machine
 
