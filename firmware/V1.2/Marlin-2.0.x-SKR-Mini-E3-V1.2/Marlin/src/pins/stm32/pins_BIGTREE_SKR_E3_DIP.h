@@ -33,11 +33,7 @@
 // Ignore temp readings during development.
 //#define BOGUS_TEMPERATURE_GRACE_PERIOD 2000
 
-#ifdef MCU_STM32F103RE
-  #define STM32_FLASH_SIZE (512 * 1024)
-#else
-  #define STM32_FLASH_SIZE (256 * 1024)
-#endif
+#define STM32_FLASH_SIZE (512 * 1024)
 
 #define FLASH_EEPROM_EMULATION
 #define EEPROM_PAGE_SIZE     uint16(0x800) // 2KB
